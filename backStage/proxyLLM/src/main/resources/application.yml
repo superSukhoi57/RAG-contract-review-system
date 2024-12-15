@@ -1,0 +1,12 @@
+
+chatURL : http://10.14.1.2:8090/baichuan/chat
+pdfURL : http://10.14.1.2:8090/baichuan/cntreview
+server:
+  port: 8882
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 5MB
+      max-request-size: 10MB
+

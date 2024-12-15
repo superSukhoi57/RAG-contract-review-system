@@ -1,0 +1,11 @@
+
+### other：这两个文件是比较大的，可以根据README在网上下载 ###
+Baichuan2-7B-Chat/
+bge-large-zh/
+Anaconda3-2024.06-1-Linux-x86_64.sh
+nginx-1.24.0
+node_modules/
+attu.tar
+etcd.tar
+minio.tar
+milvus.tar

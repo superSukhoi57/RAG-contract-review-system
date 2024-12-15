@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: pdfcompare # 服务名称
+#  cloud:
+#    nacos:
+#      server-addr: 10.14.1.2:8848
+#      config:
+#        import-check:
+#          enabled: false

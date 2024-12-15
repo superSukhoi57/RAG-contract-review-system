@@ -1,0 +1,24 @@
+server:
+  port: 8090
+  
+# 向量数据库milvus服务
+milvus:
+  host: 10.14.1.2
+  port: 19530
+  dimension: 1024
+
+# llm服务  
+llm:
+  name: ds
+  host: 10.14.1.2
+  port: 8849
+
+cuda:
+  # 后端默认使用第二块GPU
+  device: 1
+
+modules:
+  embedding :
+    # 词向量模型路径
+    bge: /data/dataEmbedding/bge-large-zh
+  

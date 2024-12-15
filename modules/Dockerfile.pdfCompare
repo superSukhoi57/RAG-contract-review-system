@@ -1,0 +1,15 @@
+FROM openjdk:17-jdk
+# 在根目录下创建一个app文件夹
+RUN mkdir /app  
+# 将pdfCompare.jar文件拷贝到/app文件夹下
+COPY  ./pdfCompare.jar  /app  
+#设置工作目录
+WORKDIR /app
+# 在容器run和start时执行的命令
+#ENTRYPOINT [ "java -jar pdfCompare.jar " ]用一个字符串会让java -jar pdfCompare.jar当成一个命令
+ENTRYPOINT ["java", "-jar", "pdfCompare.jar"]
+CMD ["--server.port=8881"]
+
+
+
+
