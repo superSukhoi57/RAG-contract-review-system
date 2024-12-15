@@ -55,7 +55,7 @@ project
 
    我们等待四个容器跑起来后，访问 本地的8000端口可以得到
 
-   ![向量数据启动效果](.\assets\attu.png)
+   ![向量数据启动效果](./assets/attu.png)
 
    看见上面的图片而且命令行所有实例的日志都没问题就说明milvus启动成功了
 
@@ -114,4 +114,4 @@ project
 
 
 
-![show](.\assets\show2.gif)
+![show](./assets/show2.gif)
