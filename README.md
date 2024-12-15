@@ -113,5 +113,5 @@ project
 ## 效果展示：
 
 -->
-   ![向量数据启动效果](./assets/show2.gif)
+   ![向量数据启动效果](.\assets/show2.gif)
 ![show](https://github.com/superSukhoi57/AI-assisted-contract-review-system/blob/main/assets/show2.gif)
