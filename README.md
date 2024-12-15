@@ -109,8 +109,6 @@ project
 10. 对于application.yaml配置文件，里面modules.embedding.bge是词向量模型的路径（位置②）如果你把他放在其他地方就修改这里。
 
 
- ![向量数据启动效果](.\assets\show2.gif)
-
 
 ## 效果展示：
 
