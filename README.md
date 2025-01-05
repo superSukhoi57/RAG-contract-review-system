@@ -17,7 +17,7 @@ project
 │    |      ├── processJsonandcallLLMx.0.py	//要运行的文件
 │    |      └── application.yaml		//配置文件
 │    └── Milvus
-│           └── docker-compose.yaml
+│    |      └── docker-compose.yaml
 │    └── outedatacode
 |    └── templatebaichuan.jinja			//这是模型对话用的模板文件
 └── modules
