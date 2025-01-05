@@ -3,23 +3,27 @@
 ## 文件目录结构：
 
 ```
+
+
 project
-	bakStage
-	data
-		位置①：放一个模型文件
-		dataEmbedding
-			位置②：放一个嵌入的模型文件
-			...
-		decoupling
-			processJsonandcallLLMx.0.py 	//要运行的文件
-			application.yaml  				//配置文件
-		Milvus
-			docker-compose.yaml
-		outedatacode
-		templatebaichuan.jinja 				//这是模型对话用的模板文件
-	modules
-	nginx.conf
-	reception
+├── bakStage
+├── data
+│    ├── 位置①：放一个模型文件
+│    │   
+│    └── dataEmbedding
+│    |	    └──位置②：放一个嵌入的模型文件
+│    │   
+│    └── decoupling
+│    |      ├── processJsonandcallLLMx.0.py	//要运行的文件
+│    |      └── application.yaml		//配置文件
+│    └── Milvus
+│           └── docker-compose.yaml
+│    └── outedatacode
+|    └── templatebaichuan.jinja			//这是模型对话用的模板文件
+└── modules
+└── nginx.conf
+└── reception
+
 ```
 
 
